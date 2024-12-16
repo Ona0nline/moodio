@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Tailwind layers */
+
+/* Customs for specific html elements -- Add to Base layer (h2,button,section etc) */
+@tailwind base;
+/* Customs for more complex classes -- Add to components layer (.cart,.badge etc) */
+@tailwind components;
+/* Customs that tailwind doesn't cover by default -- Add to utilities layer */
+@tailwind utilities;
+
+/* *{
+  font-family: 'Times New Roman', Times, serif;
+} */
+
+@layer base{
+  body{
+    background-color: #97DFFC;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components{
+  .card{
+    width: 200px;
+    height: 50px;
+    /* Apply directive gives access to multiple tailwind components without needing to write
+    all the css declarations */
+    @apply flex items-center justify-center;
+    border-radius: 20px;
+    margin-top: 40px;
+    
+  }
+
+  .typewritercom{
+    font-size: 75px;
+    text-align: center;
+    color: theme(colors.indigo);
+    font-family: "Fugaz One";
+  }
+
 }

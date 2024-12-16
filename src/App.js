@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import TypewriterComponent from './Typewriter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div className='Moodio'>
+          <TypewriterComponent/>
+      </div>
+
+      <div className='grid lg:grid-cols-3 lg:grid-rows-3 gap-10 justify-items-center'>
+      <div className='square bg-iris h-32 w-32'>
+        <button className='bg-iris'></button>
+        </div> 
+      <div className='square bg-iris h-32 w-32'></div> 
+      <div className='square bg-iris h-32 w-32'></div> 
+      <div className='square bg-iris h-32 w-32'></div> 
+      <div className='square bg-iris h-32 w-32'></div> 
+      <div className='square bg-iris h-32 w-32'></div> 
+      <div className='square bg-iris h-32 w-32'></div> 
+      <div className='square bg-iris h-32 w-32'></div> 
+      <div className='square bg-iris h-32 w-32'></div>      
+      </div>
+      
     </div>
   );
 }
