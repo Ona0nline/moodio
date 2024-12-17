@@ -13,7 +13,7 @@
 
 @layer base{
   body{
-    background-color: #97DFFC;
+    background-color: theme(colors.mint_cream);
   }
 }
 
@@ -32,8 +32,44 @@
   .typewritercom{
     font-size: 75px;
     text-align: center;
-    color: theme(colors.indigo);
+    color: theme(colors.iris);
     font-family: "Fugaz One";
+  }
+
+  .square1:hover{
+    background-color: yellow;
+  }
+
+  .square2:hover{
+    background-color: blue;
+  }
+
+  .square3:hover{
+    background-color: purple;
+  }
+
+  .square4:hover{
+    background-color: red;
+  }
+
+  .square5:hover{
+    background-color: orange;
+  }
+
+  .square6:hover{
+    background-color: black;
+  }
+
+  .square7:hover{
+    background-color: theme(colors.dark_spring_green);
+  }
+
+  .square8:hover{
+    background-color: theme(colors.raspberry);
+  }
+
+  .square9:hover{
+    background-color: grey;
   }
 
 }
