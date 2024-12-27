@@ -32,24 +32,24 @@
   .typewritercom{
     font-size: 75px;
     text-align: center;
-    color: theme(colors.iris);
+    color: theme(colors.mint_cream);
     font-family: "Fugaz One";
   }
 
   .square1:hover{
-    background-color: yellow;
+    background-color: rgb(246, 246, 104);
   }
 
   .square2:hover{
-    background-color: blue;
+    background-color: rgb(29, 29, 236);
   }
 
   .square3:hover{
-    background-color: purple;
+    background-color: rgb(138, 44, 138);
   }
 
   .square4:hover{
-    background-color: red;
+    background-color: rgb(160, 10, 10);
   }
 
   .square5:hover{

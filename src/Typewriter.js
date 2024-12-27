@@ -13,4 +13,6 @@ const TypewriterComponent = () => (
     
 )
 
+
+
 export default TypewriterComponent;

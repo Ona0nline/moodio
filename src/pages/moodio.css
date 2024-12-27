@@ -1,0 +1,23 @@
+/* Tailwind layers */
+
+/* Customs for specific html elements -- Add to Base layer (h2,button,section etc) */
+@tailwind base;
+/* Customs for more complex classes -- Add to components layer (.cart,.badge etc) */
+@tailwind components;
+/* Customs that tailwind doesn't cover by default -- Add to utilities layer */
+@tailwind utilities;
+
+/* *{
+  font-family: 'Times New Roman', Times, serif;
+} */
+
+@layer base {
+  body {
+    background-image: url("../resources/images/Moodio_2.png");
+    background-size: 1300px 1000px;
+  }
+}
+
+@layer components {
+
+}
