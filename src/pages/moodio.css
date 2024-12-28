@@ -14,7 +14,11 @@
 @layer base {
   body {
     background-image: url("../resources/images/Moodio_2.png");
-    background-size: 1300px 1000px;
+    background-size: 1260px 555px;
+    
+  *{
+    cursor: none;
+  }
   }
 }
 

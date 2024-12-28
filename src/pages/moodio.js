@@ -1,18 +1,22 @@
-// import './App.css';
 import TypewriterComponent from '../Typewriter';
 import Tooltip from '../Tooltip';
+// import { Cursor } from "framer-motion";
+
+import CursorFollow from '../CursorFollow';
 import "./moodio.css"
 
 const Moodio = () => {
   return (
     <div className="App">
+      
 
-      <div className='Moodio'>
+      <CursorFollow/>
+      <div className='Moodio ' style={{transform: "translateY(-560px)"}}>
           <TypewriterComponent/>
       </div>
 
       {/* Relative positioning and hover is grouped */}
-      <div className='grid lg:grid-cols-3 lg:grid-rows-3 gap-4 my-36 justify-items-center relative'>
+      <div className='grid lg:grid-cols-3 lg:grid-rows-3 gap-4 justify-items-center relative' style={{transform: "translateY(-560px)"}}>
       
       <div 
       id='square1' 

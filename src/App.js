@@ -10,13 +10,13 @@ import {
 import Moodio from "./pages/moodio"
 import Home from "./pages/home"
 
-import Layout from './Layout';
+// import Layout from './Layout';
 
 
 function App() {
   return (
     <div className="App">
-      <Layout/>
+      {/* <Layout/> */}
       <Router>
         <Routes>
 
